@@ -14,7 +14,7 @@ app.use(cookieParser());
 // Application Routes
 
 app.use("/zyntra/auth",authroute);
-app.use("/zyntra",userRoutes)
+app.use("/zyntra/user",userRoutes)
 
 
 module.exports = app;
