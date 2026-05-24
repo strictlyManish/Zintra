@@ -72,7 +72,10 @@ const UpdateUserController = async (req, res) => {
   }
 };
 
-const DeleteUserController = async (req,res) =>{};
+const DeleteUserController = async (req,res) =>{
+  const password = res.body;
+  
+};
 
 module.exports = {
   FetchUserController,
